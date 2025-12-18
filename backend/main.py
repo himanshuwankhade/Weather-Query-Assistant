@@ -27,6 +27,13 @@ OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-3.5-turbo")
 PORT = int(os.getenv("PORT", 8000))
 
+# Weather keywords for query validation
+WEATHER_KEYWORDS = [
+    "weather", "temperature", "temp", "forecast",
+    "rain", "humidity", "wind", "climate", "sunny",
+    "cloudy", "hot", "cold", "snow", "storm"
+]
+
 # Validate required environment variables
 if not OPEN_WEATHER_KEY or not OPENROUTER_KEY:
     raise ValueError("Missing required API keys. Check your .env file.")
