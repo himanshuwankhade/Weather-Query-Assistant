@@ -1,0 +1,82 @@
+# ===================================
+# Environment Variables & Secrets
+# ===================================
+.env
+*.env
+!.env.example
+
+# ===================================
+# Python / Backend
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+
+# Python Build
+dist/
+build/
+*.egg
+
+# ===================================
+# Node.js / Frontend
+# ===================================
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Vercel
+.vercel
+
+# ===================================
+# Logs
+# ===================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===================================
+# IDE & Editors
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+!.vscode/extensions.json
+
+# ===================================
+# Operating System
+# ===================================
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
