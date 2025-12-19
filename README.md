@@ -77,7 +77,7 @@ WeatherApp/
 ├── backend/
 │   ├── main.py          # FastAPI app with LangChain
 │   ├── requirements.txt
-│   └── .env.example
+│   └── .env
 └── frontend/
     ├── src/
     │   ├── components/  # React components
@@ -87,10 +87,7 @@ WeatherApp/
 
 ## 🌐 Deployment
 
-- **Backend**: Deploy on Render, Railway, or any Python host
-- **Frontend**: Deploy on Vercel, Netlify, or any static host
+- **Backend**: Deploy on Render
+- **Frontend**: Deploy on Vercel
 
-## 📝 License
-
-MIT - Free to use and modify
-
+## Demo Video
