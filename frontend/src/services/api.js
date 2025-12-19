@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://weather-query-assistant.onrender.com/';
+const API_BASE_URL = 'https://weather-query-assistant.onrender.com';
 
 /**
  * Query weather information
