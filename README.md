@@ -91,3 +91,5 @@ WeatherApp/
 - **Frontend**: Deploy on Vercel
 
 ## Demo Video
+
+https://github.com/user-attachments/assets/08a7f0d6-9092-4a75-a79e-7944ee9fcab1
